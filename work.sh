@@ -4,7 +4,7 @@
 clear
 echo Enter task name:
 read x
-# sleep 55m
+sleep 55m
 echo $(date +%Y-%m-%d): $x >> log.txt
 y=$(cat web.txt)
 z=$((y+5))
